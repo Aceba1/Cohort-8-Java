@@ -1,6 +1,5 @@
 package Bank;
 
-import BankAccount.Account;
 import BankAccount.CheckingAccount;
 import BankAccount.SavingsAccount;
 

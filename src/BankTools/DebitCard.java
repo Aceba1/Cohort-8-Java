@@ -35,7 +35,7 @@ public DebitCard(String cardNum, String pin, String cvv, String cardOwner, Check
     public void addAccount(Account account) {
         atmAccounts.add(account);
     }
-
+    
   @Override
   public String toString() {
     return "cardNum: " + cardNum;
