@@ -1,5 +1,7 @@
 package BankAccount;
 
+import Bank.Client;
+
 public interface Account {
   void withdraw(int amt);
   void deposit(int amt);
@@ -7,6 +9,6 @@ public interface Account {
 
   int getBalance();
   int getAccountNum();
-  String getOwner();
+  Client getOwner();
   String getType();
 }

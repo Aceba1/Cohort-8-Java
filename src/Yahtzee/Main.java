@@ -1,10 +1,5 @@
-package com.company;
+package Yahtzee;
 
-import Yahtzee.Hand;
-import Yahtzee.YahtzeeConsole;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Random;
 
 public class Main {

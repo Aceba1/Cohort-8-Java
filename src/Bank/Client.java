@@ -1,16 +1,12 @@
 package Bank;
 
 import BankAccount.Account;
-import BankAccount.CDInvestment;
 import BankAccount.CheckingAccount;
-import BankAccount.SavingsAccount;
 import BankTools.DebitCard;
 
-import javax.swing.text.html.Option;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Optional;
 
 public class Client {
   private String name;
