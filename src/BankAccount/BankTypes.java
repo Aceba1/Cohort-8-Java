@@ -1,0 +1,8 @@
+package BankAccount;
+
+public enum BankTypes {
+  SAVINGS_ACCOUNT,
+  CHECKING_ACCOUNT,
+  INVESTMENT_ACCOUNT,
+  CD_INVESTMENT_ACCOUNT,
+}

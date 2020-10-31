@@ -21,7 +21,7 @@ public class CDInvestment extends InvestmentAccount {
 
     @Override
     public void withdraw(int amt) {
-        if (time >= timeFrame && balance > 0)
+//        if (time >= timeFrame && balance > 0)
         return;
     }
 }

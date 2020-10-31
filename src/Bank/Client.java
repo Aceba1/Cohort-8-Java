@@ -77,6 +77,14 @@ public class Client {
     return sb.toString();
   }
 
+  public String getClientId() {
+    return clientId;
+  }
+
+  public String getName() {
+    return firstName  + " " + lastName;
+  }
+
   //    public void addAccount(CheckingAccount account) {
 //        checkingAccounts.add(account);
 //    }
